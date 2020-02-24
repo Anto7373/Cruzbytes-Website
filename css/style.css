@@ -7568,6 +7568,8 @@ box-shadow: 0px 10px 18px 0px rgba(166,166,166,1);
   border-radius: 15px;
   display: block;
   height: auto;
+  object-fit: cover;
+  padding: 10px;
 
 }
 .port-heading{
@@ -7663,7 +7665,7 @@ box-shadow: 0px 10px 18px 0px rgba(166,166,166,1);
     position: absolute;
     bottom: 2%;
     background-color: white;
-    border-radius: 9px;
+    /*border-radius: 9px;*/
     padding: 22px 0px 18px 19px;
 
 }
@@ -7740,9 +7742,12 @@ box-shadow: 0px 10px 18px 0px rgba(166,166,166,1);
 
 
 .bgset{
-    background-color: wheat;
+    background-color: #712d6f;
     width: 255px;
     bottom: -8px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
 
 }
 .port-social ul li{
@@ -7763,4 +7768,40 @@ box-shadow: 0px 10px 18px 0px rgba(166,166,166,1);
   font-size: 34px;
   position: relative;
   left: 61px;
+}
+.py2 .full{
+  box-shadow: 0px 0px 2px 3px #a72f6c;
+  border-radius: 7px;
+}
+.py2 .half{
+  box-shadow: 0px 0px 5px 3px #a72f6c;
+  border-radius: 7px;
+
+}
+.py2 .quater{
+box-shadow: 0px 0px 5px 3px #a72f6c;
+  border-radius: 7px;
+}
+.py2 .bi-quater{
+box-shadow: 0px 0px 5px 3px #a72f6c;
+  border-radius: 7px;
+}
+
+
+
+.big{
+  box-shadow: 0px 0px 5px 3px #a72f6c;
+  border-radius: 7px;
+}
+.medium{
+  box-shadow: 0px 0px 5px 3px #a72f6c;
+  border-radius: 7px;
+}
+.small{
+  box-shadow: 0px 0px 5px 3px #a72f6c;
+  border-radius: 7px;
+}
+.bi-small{
+  box-shadow: 0px 0px 5px 3px #a72f6c;
+  border-radius: 7px;
 }
